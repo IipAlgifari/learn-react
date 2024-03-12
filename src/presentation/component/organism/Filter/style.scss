@@ -1,0 +1,122 @@
+.filter {
+  padding: 32px 0;
+  background-color: lightsalmon;
+  &__wrapper {
+    display: table;
+    clear: both;
+  }
+
+  // form-left
+  &__form-left {
+    float: left;
+    width: 50%;
+    position: relative;
+  }
+  &__box {
+    font-size: 0;
+  }
+  &__form {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 32px;
+    .btn--icons {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 18px;
+      font-weight: fw(medium);
+    }
+  }
+  &__fs-left {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    outline: 0;
+    border: solid 1px #333;
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    scroll-behavior: smooth;
+    background-color: white;
+    color: #444;
+    transform: scaleY(0%);
+    transform-origin: center top;
+    & option {
+      outline: 0;
+      border: 0;
+      margin-bottom: 8px;
+      background-color: wihte;
+      padding-bottom: 16px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  &__btn-left {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 32px;
+  }
+  &__txt {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: fw(medium);
+    padding-left: 32px;
+    border-left: solid 2px #555;
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  // form-right
+  &__form-right {
+    float: right;
+    width: 50%;
+    text-align: right;
+  }
+  &__resault-display {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 32px;
+    font-size: 16px;
+    span {
+      font-size: 16px;
+      font-weight: 400;
+      margin-right: 16px;
+    }
+    input {
+      border: 0;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      color: #f9f9f9;
+      border-radius: 2px;
+    }
+  }
+  &__short {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    span {
+      margin-right: 8px;
+    }
+    select {
+      border: 0;
+      outline: 0;
+      padding: 12px 0 12px 20px;
+      color: #333;
+      font-size: 18px;
+      border-radius: 2px;
+    }
+  }
+
+  .box-display {
+    color: #333;
+    width: 48px;
+    padding: 8px;
+  }
+}
